@@ -22,4 +22,6 @@ In another terminal you can run the client with:
 
 The API is also accessible via JSON POST:
 
-    curl -H 'content-type:application/json' -d '{"my_name": "Matt"}' http://localhost:8000/HelloService.Hello
+    curl -H 'content-type:application/json' \
+      -d '{"my_name": "Matt"}' \
+      http://localhost:8000/HelloService.Hello
